@@ -1,0 +1,40 @@
+.events {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("../images/events.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.events-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-text {
+    color: white;
+    font-size: 21px;
+    padding-left: 23%; 
+    padding-right: 19%; 
+}
+
+.events-button {
+    border: solid 2px white !important;
+    border-radius:15px;
+    background-color: white !important;
+    color: red !important;
+}
+
+.events-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 350%;
+    font-weight: bold;   
+}

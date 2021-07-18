@@ -1,0 +1,29 @@
+.choose-table {
+    background-image: url('../images/adminTable.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.buttons-wrapper {
+    display: flex;
+    gap: 10%;
+    width: 85%;
+    height: 30%;
+}
+
+.choose-button {
+    border:solid 5px red !important;
+    color: red !important;
+    background-color: transparent !important;
+    width: 80%;
+    font-size: 240% !important;
+    font-weight: 900 !important;
+}
+
+.choose-button:hover {
+    background: red !important;
+    color: white !important;
+}

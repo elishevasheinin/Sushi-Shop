@@ -1,0 +1,33 @@
+.plus-circle {
+    color: red;
+    cursor: pointer;
+}
+
+.minus-circle {
+    color: red;
+    cursor: pointer;
+}
+
+.cart-details {
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    box-shadow: 1px 1px;
+}
+
+.product-name {
+    font-weight: 500;
+}
+
+.product-price {
+    color: black;
+    right: 0;
+}
+
+.label-number {
+    width: 40%;
+    text-align: center;
+}

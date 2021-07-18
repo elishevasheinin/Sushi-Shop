@@ -1,0 +1,21 @@
+.menu {
+    padding-top: 1.5%;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    gap: 2%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2%;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4ch;
+    color: white;
+}

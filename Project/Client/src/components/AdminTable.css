@@ -1,0 +1,23 @@
+.orders-table-img {
+    background-image: url("../images/chooseTable.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    color:white !important;
+    font-weight: 800 !important;    
+}
+
+th {
+    padding: 2%;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: red !important;
+}
+
+td {
+    padding: 2%;
+    font-size: 19px !important;
+    font-weight: 800 !important;
+}

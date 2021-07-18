@@ -1,0 +1,6 @@
+#root {
+  background-color: #171717;
+  display: grid;
+  grid-template-rows: 1fr 13.4fr;
+  max-width: 100%;
+}

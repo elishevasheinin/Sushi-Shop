@@ -1,0 +1,44 @@
+.cart {
+    display: grid;
+    grid-template-rows: 9fr 1fr 1.6fr;
+    height: 80%;
+    max-height: 80%;
+    border: solid 7px red;
+    border-radius: 15px;
+    background-color: white !important;
+    margin-right: 30%;
+}
+
+.cart-items {
+    overflow: auto;
+    padding: 1px;
+}
+
+.buttons-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-button {
+    background-color: red !important;
+    margin: 2px;
+    color: white !important;
+    height: 60%;
+    width: 40%;
+}
+
+.Mui-disabled {
+    opacity: 0.75;
+}
+
+.total-price {
+    border-top:solid 3px  red;
+    border-bottom:solid 3px  red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}

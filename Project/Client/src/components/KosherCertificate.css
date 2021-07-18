@@ -1,0 +1,21 @@
+.kosher-certificate {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    background-image: url("../images/kosher.jpg");
+    background-size: cover;
+}
+
+.kosher-certificate-title {
+    color: white;
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 19%;
+    font-size: 230%;
+    font-weight: 600;
+}
+
+.kosher-certificate-img {
+    padding: 1%;
+    width: 40%;
+}

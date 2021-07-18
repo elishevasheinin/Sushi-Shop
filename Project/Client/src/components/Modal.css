@@ -1,0 +1,50 @@
+.modal-dialog {
+    max-width: 60% !important;
+}
+
+.modal-content {
+    border: solid 5px white !important;
+    background-color: #171717 !important;
+    padding: 5%;
+}
+
+.order-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2%;
+    grid-template-rows: auto;
+    row-gap: 9%;
+    height: fit-content;
+    padding-bottom: 5%;
+}
+
+.modal-product {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 0.7;
+    border: 1px solid white;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 11vw;
+    width: 92%;
+}
+
+.modal-amount {
+    color: red;
+    font-size: 600%;
+    font-weight: bold;
+}
+
+.modal-type {
+    color: white;
+    font-weight: 400;
+}
+
+.close-btn {
+    font-size: 1.2rem !important;
+    margin-top: 6% !important;
+}

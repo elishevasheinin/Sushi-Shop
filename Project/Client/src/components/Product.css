@@ -1,0 +1,30 @@
+.details {
+    font-size: large;
+    font-weight: 400;
+    color: white;
+}
+
+.menu-details {
+    display: grid;
+    grid-template-columns: 0.7fr 5fr 2fr;
+}
+
+.product-img {
+    width: 92%;
+    border: 1px solid white;
+    border-radius: 10px;
+    vertical-align: middle; 
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-weight: 400;
+    font-size: 1.8ch;
+    color: white;
+}
+
+.plus {
+    padding: 0.2ch;
+    color: white;
+}

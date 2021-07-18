@@ -1,0 +1,24 @@
+.login-form {
+    justify-content: center;margin: 5%;
+    background-color: #171717 !important;
+    border: solid 12px #171717;
+    position: relative;
+}
+
+.text-center {
+    color: red;
+}
+
+.send-button {
+    border-radius: 10px;
+}
+
+.bold-street {
+    font-weight: bold;
+}
+
+.pickup-message {
+    width: 50%;
+    font-size: 20px;
+    color:white;
+}

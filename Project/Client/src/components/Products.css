@@ -1,0 +1,14 @@
+.products {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 7%;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+    grid-template-rows: auto;
+    row-gap: 3%;
+    height: fit-content;
+}
